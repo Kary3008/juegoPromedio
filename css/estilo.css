@@ -1,20 +1,21 @@
-.cont{
-  border: 2px solid black;
-  padding: 15px;
-  margin-left: 350px;
-  margin-right: 350px;
-  margin-top: 30px;
-  border-radius: 5px;
-  background: #FF9966;
+.cont{ /* clase cont */
+  border: 2px solid black; /* se define un borde de 2 pixels color negro*/
+  padding: 15px; /* un padding de 15 pixels */
+  margin-left: 350px; /* un margin a la izquierda de 350 pixels*/
+  margin-right: 350px; /* un margin a la derecha de 350 pixels*/
+  margin-top: 30px; /* un margin arriba de 30 pixels*/
+  border-radius: 5px; /* un borde redondo de 5 px*/
+  background: #FF9966; /* un fondo de color naranja */
 }
-.subcont{
-  width: 200px;
-  text-align: center;
+.subcont{/*clase subcont*/
+  width: 200px; /* ancho 200px*/
+  text-align: center; /* alineación al centro */
 }
-#boton{
-  width: 90px;
-  color: #FFF;
-  background-color: #CC3300;
-  height: 40px;
-  font-size: 16px;
+#boton{ /* id botón */
+  width: 90px; /* ancho 90 pixels */
+  color: #FFF; /* color blanco */
+  background-color: #FF6633; /*color naranja intenso */
+  height: 40px; /* alto 40 pixels*/
+  font-size: 16px; /* tamaño de fuente 16 pixels*/
+  border-radius: 10px; /* un borde redondo de 5 px*/
 }
