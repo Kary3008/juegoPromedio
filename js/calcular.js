@@ -11,19 +11,19 @@ function calcularProm(){ //se denomina la función para calcular el promedio
 
 //SE COLOCA LAS CONDICIONES PARA DEFINIR EL EQ DEL PROMEDIO
   if (total >=90 & total <=100) { // si total es mayor o igual a 90 o menor o igual a 100
-    contenido('EQ').value = 'A'; //La calificación es de A
+    contenido('EQ').value = 'Aprobado'; //La calificación es de Aprobado
   }
   else if (total >=80 & total <=90) { // si total es mayor o igual a 80 o menor o igual a 90
-    contenido('EQ').value = 'B'; //La calificación es de B
+    contenido('EQ').value = 'Regular'; //La calificación es de Regular
   }
   else if (total >=70 & total <=80) { // si total es mayor o igual a 70 o menor o igual a 80
-    contenido('EQ').value = 'C'; //La calificación es de C
+    contenido('EQ').value = 'Suficiente'; //La calificación es de Suficiente
   }
   else if (total >=60 & total <=70) { // si total es mayor o igual a 60 o menor o igual a 70
-    contenido('EQ').value = 'D'; //La calificación es de B
+    contenido('EQ').value = 'Irregular'; //La calificación es de Irregular
   }
   else if (total <60) { // si total es menor a 60
-    contenido('EQ').value = 'F'; //La calificación es de F
+    contenido('EQ').value = 'Recurse'; //La calificación es de Recurse
   }
   else { //si por error se coloca otro caracter que no sea número
     contenido('EQ').value = 'Dato Inválido'; //mostrará que es un dato Inválido.

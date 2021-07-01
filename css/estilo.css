@@ -1,10 +1,10 @@
 .cont{ /* clase cont */
   border: 2px solid black; /* se define un borde de 2 pixels color negro*/
   padding: 15px; /* un padding de 15 pixels */
-  margin-left: 350px; /* un margin a la izquierda de 350 pixels*/
-  margin-right: 350px; /* un margin a la derecha de 350 pixels*/
+  margin-left: 150px; /* un margin a la izquierda de 350 pixels*/
+  margin-right: 150px; /* un margin a la derecha de 350 pixels*/
   margin-top: 30px; /* un margin arriba de 30 pixels*/
-  border-radius: 5px; /* un borde redondo de 5 px*/
+  border-radius: 10px; /* un borde redondo de 10 px*/
   background: #FF9966; /* un fondo de color naranja */
 }
 .subcont{/*clase subcont*/
@@ -17,5 +17,10 @@
   background-color: #FF6633; /*color naranja intenso */
   height: 40px; /* alto 40 pixels*/
   font-size: 16px; /* tamaño de fuente 16 pixels*/
-  border-radius: 10px; /* un borde redondo de 5 px*/
+  border-radius: 10px; /* un borde redondo de 10 px*/
+}
+.img{
+  width: 330px; /* ancho 330 pixels */
+  height: 330px; /*alto de 330 pixels*/
+  margin-top: 30px; /* un margin arriba de 30 pixels*/
 }

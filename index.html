@@ -9,19 +9,26 @@
   </head><!--Termina el encabezado-->
   <body>
     <!--Empieza contenido-->
-      <div class="cont" align="center"> <!--se crea una división para colocar las notas-->
-        <h1>Calcula tu promedio</h1>
-        <input type="text" id="1nota" class="subcont" placeholder="Primera Nota"> <!--En un input se coloca la 1ra nota-->
-        <input type="text" id="2nota" class="subcont" placeholder="Segunda Nota"><br> <br> <!--En un input se coloca la 2da nota-->
-        <input type="text" id="3nota" class="subcont" placeholder="Tercera Nota"> <!--En un input se coloca la 3ra nota-->
-        <input type="text" id="4nota" class="subcont" placeholder="Cuarta Nota"> <!--En un input se coloca la 4ta nota-->
+    <div class="row py-5">
+      <div class="col-8"><!--se divide en columnas, columna mayor--->
+        <div class="cont" align="center"> <!--se crea una división para colocar las notas-->
+          <h1>Calcula tu promedio</h1>
+          <input type="text" id="1nota" class="subcont" placeholder="Primera Nota"> <!--En un input se coloca la 1ra nota-->
+          <input type="text" id="2nota" class="subcont" placeholder="Segunda Nota"><br> <br> <!--En un input se coloca la 2da nota-->
+          <input type="text" id="3nota" class="subcont" placeholder="Tercera Nota"> <!--En un input se coloca la 3ra nota-->
+          <input type="text" id="4nota" class="subcont" placeholder="Cuarta Nota"> <!--En un input se coloca la 4ta nota-->
+        </div>
+        <div class="cont" align="center"><!--se crea una división para colocar los resultados-->
+          <h2>Resultado</h2>
+          <input type="text" id="media" class="subcont" placeholder="Promedio"><!--En un input se coloca el promedio-->
+          <input type="text" id="EQ" class="subcont" placeholder="Calificación"> <!--En un input se coloca el estado de su resultado-->
+            <button id="boton" onclick="calcularProm()">Calcular</button><!--Se define el promedio-->
+        </div>
       </div>
-      <div class="cont" align="center"><!--se crea una división para colocar los resultados-->
-        <h2>Resultado</h2>
-        <input type="text" id="media" class="subcont" placeholder="Promedio"><!--En un input se coloca el promedio-->
-        <input type="text" id="EQ" class="subcont" placeholder="EQ"> <!--En un input se coloca el estado de su resultado-->
-          <button id="boton" onclick="calcularProm()">Calcular</button><!--Se define el promedio-->
+      <div class="col-4"><!--se divide en columnas, columna menor--->
+        <img src="img/img1.jpg" alt="Imagen 1" class="img"><!--Se coloca una imagen para decorar--->
       </div>
+    </div>
     <!--Termina contenido-->
     <script src="js/bootstrap.min.js"></script><!--se coloca el bootstrap JS-->
   </body>
