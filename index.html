@@ -1,13 +1,28 @@
-<!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    <script src="js/calcular.js"></script>
-  </head>
+<!DOCTYPE html><!--Se define que es un documento en HTML5-->
+<html lang="es" dir="ltr"> <!--Se define el lenguaje en español-->
+  <head><!--Empieza el encabezado-->
+    <meta charset="utf-8"><!--se coloca la meta para los caracteres-->
+    <title>Calculadora</title><!--Se coloca el título de la página-->
+    <link rel="stylesheet" href="css/estilo.css"><!--se manda a llamar los estilos y el bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/calcular.js"></script><!--se manda a llamar el js que realizará las operaciones-->
+  </head><!--Termina el encabezado-->
   <body>
-
-
+    <!--Empieza contenido-->
+      <div class="cont" align="center"> <!--se crea una división para colocar las notas-->
+        <h1>Calcula tu promedio</h1>
+        <input type="text" id="1nota" class="subcont" placeholder="Primera Nota"> <!--En un input se coloca la 1ra nota-->
+        <input type="text" id="2nota" class="subcont" placeholder="Segunda Nota"><br> <br> <!--En un input se coloca la 2da nota-->
+        <input type="text" id="3nota" class="subcont" placeholder="Tercera Nota"> <!--En un input se coloca la 3ra nota-->
+        <input type="text" id="4nota" class="subcont" placeholder="Cuarta Nota"> <!--En un input se coloca la 4ta nota-->
+      </div>
+      <div class="cont" align="center">
+        <h2>Resultado</h2>
+        <input type="text" id="media" class="subcont" placeholder="Promedio"><!--En un input se coloca el promedio-->
+        <input type="text" id="EQ" class="subcont" placeholder="EQ"> <!--En un input se coloca el promedio-->
+          <button id="boton" onclick="calcularProm()">Calcular</button>
+      </div>
+    <!--Termina contenido-->
+    <script src="js/bootstrap.min.js"></script><!--se coloca el bootstrap JS-->
   </body>
 </html>
