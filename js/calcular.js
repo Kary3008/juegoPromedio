@@ -10,19 +10,19 @@ function calcularProm(){ //se denomina la función para calcular el promedio
   contenido('media').value = total; //la variable del resultado (total) se guarda en el ID media
 
 //SE COLOCA LAS CONDICIONES PARA DEFINIR EL EQ DEL PROMEDIO
-  if (total >=90 & total <=100) { // si total es mayor o igual a 90 o menor o igual a 100
+  if (total >= 90 & total <= 100) { // si total es mayor o igual a 90 o menor o igual a 100
     contenido('EQ').value = 'Aprobado'; //La calificación es de Aprobado
   }
-  else if (total >=80 & total <=90) { // si total es mayor o igual a 80 o menor o igual a 90
+  else if (total >= 80 & total < 90) { // si total es mayor o igual a 80 o menor o igual a 90
     contenido('EQ').value = 'Regular'; //La calificación es de Regular
   }
-  else if (total >=70 & total <=80) { // si total es mayor o igual a 70 o menor o igual a 80
+  else if (total >= 70 & total < 80) { // si total es mayor o igual a 70 o menor o igual a 80
     contenido('EQ').value = 'Suficiente'; //La calificación es de Suficiente
   }
-  else if (total >=60 & total <=70) { // si total es mayor o igual a 60 o menor o igual a 70
+  else if (total >= 60 & total < 70) { // si total es mayor o igual a 60 o menor o igual a 70
     contenido('EQ').value = 'Irregular'; //La calificación es de Irregular
   }
-  else if (total <60) { // si total es menor a 60
+  else if (total < 60) { // si total es menor a 60
     contenido('EQ').value = 'Recurse'; //La calificación es de Recurse
   }
   else { //si por error se coloca otro caracter que no sea número
